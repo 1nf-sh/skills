@@ -11,7 +11,7 @@ allowed-tools: Bash(infsh *)
 
 # FLUX Image Generation
 
-Generate images with FLUX models via inference.sh CLI.
+Generate images with FLUX models via [inference.sh](https://inference.sh) CLI.
 
 ## Quick Start
 
@@ -86,3 +86,9 @@ npx skills add inference-sh/skills@image-upscaling
 ```
 
 Browse all apps: `infsh app list`
+
+## Documentation
+
+- [Running Apps](https://inference.sh/docs/apps/running) - How to run apps via CLI
+- [Image Generation Example](https://inference.sh/docs/examples/image-generation) - Complete image generation guide
+- [Streaming Results](https://inference.sh/docs/api/sdk/streaming) - Real-time progress updates

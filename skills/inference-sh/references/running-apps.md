@@ -140,3 +140,9 @@ Example output:
 | "invalid input" | Schema mismatch | Check `infsh app get` for required fields |
 | "app not found" | Wrong app name | Check `infsh app list --search` |
 | "quota exceeded" | Out of credits | Check account balance |
+
+## Documentation
+
+- [Running Apps](https://inference.sh/docs/apps/running) - Complete running apps guide
+- [Streaming Results](https://inference.sh/docs/api/sdk/streaming) - Real-time progress updates
+- [Setup Parameters](https://inference.sh/docs/apps/setup-parameters) - Configuring app inputs

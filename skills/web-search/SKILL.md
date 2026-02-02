@@ -12,7 +12,7 @@ allowed-tools: Bash(infsh *)
 
 # Web Search & Extraction
 
-Search the web and extract content via inference.sh CLI.
+Search the web and extract content via [inference.sh](https://inference.sh) CLI.
 
 ## Quick Start
 
@@ -142,3 +142,9 @@ npx skills add inference-sh/skills@ai-image-generation
 ```
 
 Browse all apps: `infsh app list`
+
+## Documentation
+
+- [Adding Tools to Agents](https://inference.sh/docs/agents/adding-tools) - Equip agents with search
+- [Building a Research Agent](https://inference.sh/blog/guides/research-agent) - LLM + search integration guide
+- [Tool Integration Tax](https://inference.sh/blog/tools/integration-tax) - Why pre-built tools matter

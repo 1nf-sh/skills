@@ -13,7 +13,7 @@ allowed-tools: Bash(infsh *)
 
 # LLM Models via OpenRouter
 
-Access 100+ language models via inference.sh CLI.
+Access 100+ language models via [inference.sh](https://inference.sh) CLI.
 
 ## Quick Start
 
@@ -126,3 +126,9 @@ npx skills add inference-sh/skills@ai-video-generation
 ```
 
 Browse all apps: `infsh app list`
+
+## Documentation
+
+- [Agents Overview](https://inference.sh/docs/concepts/agents) - Building AI agents
+- [Agent SDK](https://inference.sh/docs/api/agent/overview) - Programmatic agent control
+- [Building a Research Agent](https://inference.sh/blog/guides/research-agent) - LLM + search integration guide

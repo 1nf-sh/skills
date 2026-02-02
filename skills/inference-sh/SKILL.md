@@ -9,7 +9,7 @@ description: |
 allowed-tools: Bash(infsh *)
 ---
 
-# inference.sh
+# [inference.sh](https://inference.sh)
 
 Run 150+ AI apps in the cloud with a simple CLI. No GPU required.
 
@@ -103,3 +103,12 @@ npx skills add inference-sh/skills@background-removal
 - [Discovering Apps](references/app-discovery.md)
 - [Running Apps](references/running-apps.md)
 - [CLI Reference](references/cli-reference.md)
+
+## Documentation
+
+- [Getting Started](https://inference.sh/docs/getting-started/introduction) - Introduction to inference.sh
+- [What is inference.sh?](https://inference.sh/docs/getting-started/what-is-inference) - Platform overview
+- [Apps Overview](https://inference.sh/docs/apps/overview) - Understanding the app ecosystem
+- [CLI Setup](https://inference.sh/docs/extend/cli-setup) - Installing the CLI
+- [Workflows vs Agents](https://inference.sh/blog/concepts/workflows-vs-agents) - When to use each
+- [Why Agent Runtimes Matter](https://inference.sh/blog/agent-runtime/why-runtimes-matter) - Runtime benefits

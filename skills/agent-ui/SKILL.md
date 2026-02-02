@@ -112,4 +112,12 @@ npx skills add inference-sh/skills@widgets-ui
 npx skills add inference-sh/skills@tools-ui
 ```
 
-Docs: [ui.inference.sh/blocks/agent](https://ui.inference.sh/blocks/agent)
+## Documentation
+
+- [Agents Overview](https://inference.sh/docs/agents/overview) - Building AI agents
+- [Agent SDK](https://inference.sh/docs/api/agent/overview) - Programmatic agent control
+- [Human-in-the-Loop](https://inference.sh/docs/runtime/human-in-the-loop) - Approval flows
+- [Agents That Generate UI](https://inference.sh/blog/ux/generative-ui) - Building generative UIs
+- [Agent UX Patterns](https://inference.sh/blog/ux/agent-ux-patterns) - Best practices
+
+Component docs: [ui.inference.sh/blocks/agent](https://ui.inference.sh/blocks/agent)

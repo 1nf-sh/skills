@@ -134,4 +134,10 @@ npx skills add inference-sh/skills@widgets-ui
 npx skills add inference-sh/skills@markdown-ui
 ```
 
-Docs: [ui.inference.sh/blocks/chat](https://ui.inference.sh/blocks/chat)
+## Documentation
+
+- [Chatting with Agents](https://inference.sh/docs/agents/chatting) - Building chat interfaces
+- [Agent UX Patterns](https://inference.sh/blog/ux/agent-ux-patterns) - Chat UX best practices
+- [Real-Time Streaming](https://inference.sh/blog/observability/streaming) - Streaming responses
+
+Component docs: [ui.inference.sh/blocks/chat](https://ui.inference.sh/blocks/chat)

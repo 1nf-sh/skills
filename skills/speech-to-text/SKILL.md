@@ -13,7 +13,7 @@ allowed-tools: Bash(infsh *)
 
 # Speech-to-Text
 
-Transcribe audio to text via inference.sh CLI.
+Transcribe audio to text via [inference.sh](https://inference.sh) CLI.
 
 ## Quick Start
 
@@ -124,3 +124,9 @@ npx skills add inference-sh/skills@ai-avatar-video
 ```
 
 Browse all audio apps: `infsh app list --category audio`
+
+## Documentation
+
+- [Running Apps](https://inference.sh/docs/apps/running) - How to run apps via CLI
+- [Audio Transcription Example](https://inference.sh/docs/examples/audio-transcription) - Complete transcription guide
+- [Apps Overview](https://inference.sh/docs/apps/overview) - Understanding the app ecosystem

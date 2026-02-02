@@ -13,7 +13,7 @@ allowed-tools: Bash(infsh *)
 
 # AI Music Generation
 
-Generate music and songs via inference.sh CLI.
+Generate music and songs via [inference.sh](https://inference.sh) CLI.
 
 ## Quick Start
 
@@ -122,3 +122,9 @@ npx skills add inference-sh/skills@speech-to-text
 ```
 
 Browse all apps: `infsh app list`
+
+## Documentation
+
+- [Running Apps](https://inference.sh/docs/apps/running) - How to run apps via CLI
+- [Content Pipeline Example](https://inference.sh/docs/examples/content-pipeline) - Building media workflows
+- [Apps Overview](https://inference.sh/docs/apps/overview) - Understanding the app ecosystem

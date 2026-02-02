@@ -114,8 +114,11 @@ npx skills update
 npx skills remove inference-sh/skills@ai-image-generation
 ```
 
-## Learn More
+## Documentation
 
-- Browse all apps: `infsh app list`
-- Explore the store: https://inference.sh/explore
-- Documentation: https://inference.sh/docs
+- [Getting Started](https://inference.sh/docs/getting-started/introduction) - Introduction to inference.sh
+- [Apps Overview](https://inference.sh/docs/apps/overview) - Understanding the app ecosystem
+- [CLI Setup](https://inference.sh/docs/extend/cli-setup) - Installing the CLI
+- [What is inference.sh?](https://inference.sh/docs/getting-started/what-is-inference) - Platform overview
+
+Explore: [inference.sh/explore](https://inference.sh/explore)

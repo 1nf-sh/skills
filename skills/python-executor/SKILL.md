@@ -1,7 +1,7 @@
 ---
 name: python-executor
 description: |
-  Execute Python code in a safe sandboxed environment via inference.sh.
+  Execute Python code in a safe sandboxed environment via [inference.sh](https://inference.sh).
   Pre-installed: NumPy, Pandas, Matplotlib, requests, BeautifulSoup, Selenium,
   Playwright, MoviePy, Pillow, OpenCV, trimesh, and 100+ more libraries.
   Use for: data processing, web scraping, image manipulation, video creation,
@@ -178,3 +178,9 @@ npx skills add inference-sh/skills@ai-video-generation
 # LLM models (for text generation)
 npx skills add inference-sh/skills@llm-models
 ```
+
+## Documentation
+
+- [Running Apps](https://inference.sh/docs/apps/running) - How to run apps via CLI
+- [App Code](https://inference.sh/docs/extend/app-code) - Understanding app execution
+- [Sandboxed Code Execution](https://inference.sh/blog/tools/sandboxed-execution) - Safe code execution for agents

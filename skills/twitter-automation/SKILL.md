@@ -13,7 +13,7 @@ allowed-tools: Bash(infsh *)
 
 # Twitter/X Automation
 
-Automate Twitter/X via inference.sh CLI.
+Automate Twitter/X via [inference.sh](https://inference.sh) CLI.
 
 ## Quick Start
 
@@ -149,3 +149,9 @@ npx skills add inference-sh/skills@ai-avatar-video
 ```
 
 Browse all apps: `infsh app list`
+
+## Documentation
+
+- [X.com Integration](https://inference.sh/docs/integrations/x) - Setting up Twitter/X integration
+- [X.com Integration Example](https://inference.sh/docs/examples/x-integration) - Complete Twitter workflow
+- [Apps Overview](https://inference.sh/docs/apps/overview) - Understanding the app ecosystem

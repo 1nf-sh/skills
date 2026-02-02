@@ -1,6 +1,6 @@
-# inference.sh Skills
+# [inference.sh](https://inference.sh) Skills
 
-AI agent skills for running 150+ AI apps via the inference.sh CLI.
+AI agent skills for running 150+ AI apps via the [inference.sh](https://inference.sh) CLI.
 
 ## Installation
 
@@ -127,9 +127,26 @@ infsh app list --category audio
 infsh app list --search "flux"
 ```
 
+## Documentation
+
+- [Getting Started](https://inference.sh/docs/getting-started/introduction) - Introduction to inference.sh
+- [What is inference.sh?](https://inference.sh/docs/getting-started/what-is-inference) - Platform overview
+- [Apps Overview](https://inference.sh/docs/apps/overview) - Understanding the app ecosystem
+- [Running Apps](https://inference.sh/docs/apps/running) - How to run apps via CLI
+- [CLI Setup](https://inference.sh/docs/extend/cli-setup) - Installing the CLI
+- [API & SDK](https://inference.sh/docs/api/overview) - Programmatic access
+
+### Blog
+
+- [Workflows vs Agents](https://inference.sh/blog/concepts/workflows-vs-agents) - When to use each
+- [Why Agent Runtimes Matter](https://inference.sh/blog/agent-runtime/why-runtimes-matter) - Runtime benefits
+- [Building a Research Agent](https://inference.sh/blog/guides/research-agent) - LLM + search integration
+- [From Demo to Production](https://inference.sh/blog/guides/demo-to-production) - Production best practices
+
 ## Links
 
 - **Website**: [inference.sh](https://inference.sh)
 - **App Store**: [app.inference.sh](https://app.inference.sh)
-- **Docs**: [app.inference.sh/docs](https://app.inference.sh/docs)
+- **Docs**: [inference.sh/docs](https://inference.sh/docs)
+- **Blog**: [inference.sh/blog](https://inference.sh/blog)
 - **CLI Install**: `curl -fsSL https://cli.inference.sh | sh`

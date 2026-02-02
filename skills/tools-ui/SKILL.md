@@ -165,4 +165,10 @@ npx skills add inference-sh/skills@chat-ui
 npx skills add inference-sh/skills@widgets-ui
 ```
 
-Docs: [ui.inference.sh/blocks/tools](https://ui.inference.sh/blocks/tools)
+## Documentation
+
+- [Adding Tools to Agents](https://inference.sh/docs/agents/adding-tools) - Equip agents with tools
+- [Human-in-the-Loop](https://inference.sh/docs/runtime/human-in-the-loop) - Approval flows
+- [Tool Approval Gates](https://inference.sh/blog/tools/approval-gates) - Implementing approvals
+
+Component docs: [ui.inference.sh/blocks/tools](https://ui.inference.sh/blocks/tools)

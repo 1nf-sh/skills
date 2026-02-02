@@ -13,7 +13,7 @@ allowed-tools: Bash(infsh *)
 
 # Text-to-Speech
 
-Convert text to natural speech via inference.sh CLI.
+Convert text to natural speech via [inference.sh](https://inference.sh) CLI.
 
 ## Quick Start
 
@@ -129,3 +129,9 @@ npx skills add inference-sh/skills@ai-video-generation
 ```
 
 Browse all apps: `infsh app list`
+
+## Documentation
+
+- [Running Apps](https://inference.sh/docs/apps/running) - How to run apps via CLI
+- [Audio Transcription Example](https://inference.sh/docs/examples/audio-transcription) - Audio processing workflows
+- [Apps Overview](https://inference.sh/docs/apps/overview) - Understanding the app ecosystem

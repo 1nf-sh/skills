@@ -13,7 +13,7 @@ allowed-tools: Bash(infsh *)
 
 # AI Video Generation
 
-Generate videos with 40+ AI models via inference.sh CLI.
+Generate videos with 40+ AI models via [inference.sh](https://inference.sh) CLI.
 
 ## Quick Start
 
@@ -172,3 +172,9 @@ npx skills add inference-sh/skills@twitter-automation
 ```
 
 Browse all apps: `infsh app list`
+
+## Documentation
+
+- [Running Apps](https://inference.sh/docs/apps/running) - How to run apps via CLI
+- [Streaming Results](https://inference.sh/docs/api/sdk/streaming) - Real-time progress updates
+- [Content Pipeline Example](https://inference.sh/docs/examples/content-pipeline) - Building media workflows

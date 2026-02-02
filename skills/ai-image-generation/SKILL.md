@@ -13,7 +13,7 @@ allowed-tools: Bash(infsh *)
 
 # AI Image Generation
 
-Generate images with 50+ AI models via inference.sh CLI.
+Generate images with 50+ AI models via [inference.sh](https://inference.sh) CLI.
 
 ## Quick Start
 
@@ -134,3 +134,9 @@ npx skills add inference-sh/skills@ai-avatar-video
 ```
 
 Browse all apps: `infsh app list`
+
+## Documentation
+
+- [Running Apps](https://inference.sh/docs/apps/running) - How to run apps via CLI
+- [Image Generation Example](https://inference.sh/docs/examples/image-generation) - Complete image generation guide
+- [Apps Overview](https://inference.sh/docs/apps/overview) - Understanding the app ecosystem

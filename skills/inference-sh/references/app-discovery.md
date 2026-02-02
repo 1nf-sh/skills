@@ -95,3 +95,9 @@ Shows full app info including input/output schema.
 - `infsh/kokoro-tts` - Kokoro TTS
 - `infsh/fast-whisper-large-v3` - Fast transcription
 - `infsh/diffrythm` - Music generation
+
+## Documentation
+
+- [Browsing the Grid](https://inference.sh/docs/apps/browsing-grid) - Visual app browsing
+- [Apps Overview](https://inference.sh/docs/apps/overview) - Understanding apps
+- [Running Apps](https://inference.sh/docs/apps/running) - How to run apps

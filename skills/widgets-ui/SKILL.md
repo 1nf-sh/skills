@@ -167,4 +167,10 @@ npx skills add inference-sh/skills@chat-ui
 npx skills add inference-sh/skills@tools-ui
 ```
 
-Docs: [ui.inference.sh/blocks/widgets](https://ui.inference.sh/blocks/widgets)
+## Documentation
+
+- [Widgets Overview](https://inference.sh/docs/agents/widgets/overview) - Understanding widgets
+- [Widget Schema](https://inference.sh/docs/agents/widgets/schema) - Widget JSON structure
+- [Agents That Generate UI](https://inference.sh/blog/ux/generative-ui) - Building generative UIs
+
+Component docs: [ui.inference.sh/blocks/widgets](https://ui.inference.sh/blocks/widgets)
