@@ -7,6 +7,7 @@ Capture browser automation as video for debugging, documentation, or verificatio
 ## Contents
 
 - [Basic Recording](#basic-recording)
+- [Cursor Indicator](#cursor-indicator)
 - [How Recording Works](#how-recording-works)
 - [Use Cases](#use-cases)
 - [Best Practices](#best-practices)
@@ -38,6 +39,29 @@ RESULT=$(infsh app run agentic-browser --function close --session $SESSION --inp
 VIDEO=$(echo $RESULT | jq -r '.video')
 echo "Video file: $VIDEO"
 ```
+
+## Cursor Indicator
+
+For demos and documentation, show a visible cursor that follows mouse movements:
+
+```bash
+SESSION=$(infsh app run agentic-browser --function open --session new --input '{
+  "url": "https://example.com",
+  "record_video": true,
+  "show_cursor": true
+}' | jq -r '.session_id')
+```
+
+The cursor appears as a red dot that:
+- Follows mouse movements in real-time
+- Shows click feedback (shrinks on mousedown)
+- Persists across page navigations
+- Appears in both screenshots and video
+
+This is especially useful for:
+- Tutorial/documentation videos
+- Debugging interaction issues
+- Sharing recordings with non-technical stakeholders
 
 ## How Recording Works
 

@@ -27,6 +27,7 @@ infsh app run agentic-browser --function open --session new --input '{
   "height": 720,
   "user_agent": "Mozilla/5.0...",
   "record_video": false,
+  "show_cursor": false,
   "proxy_url": null,
   "proxy_username": null,
   "proxy_password": null
@@ -42,6 +43,7 @@ infsh app run agentic-browser --function open --session new --input '{
 | `height` | int | 720 | Viewport height in pixels |
 | `user_agent` | string | null | Custom user agent string |
 | `record_video` | bool | false | Record video (returned on close) |
+| `show_cursor` | bool | false | Show cursor indicator in screenshots/video |
 | `proxy_url` | string | null | Proxy server URL |
 | `proxy_username` | string | null | Proxy auth username |
 | `proxy_password` | string | null | Proxy auth password |

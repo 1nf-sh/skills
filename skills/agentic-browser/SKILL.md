@@ -114,10 +114,11 @@ Elements are returned with `@e` refs:
 Record browser sessions for debugging or documentation:
 
 ```bash
-# Start with recording enabled
+# Start with recording enabled (optionally show cursor indicator)
 SESSION=$(infsh app run agentic-browser --function open --session new --input '{
   "url": "https://example.com",
-  "record_video": true
+  "record_video": true,
+  "show_cursor": true
 }' | jq -r '.session_id')
 
 # ... perform actions ...
@@ -126,6 +127,20 @@ SESSION=$(infsh app run agentic-browser --function open --session new --input '{
 infsh app run agentic-browser --function close --session $SESSION --input '{}'
 # Returns: {"success": true, "video": <File>}
 ```
+
+### Cursor Indicator
+
+Show a visible cursor in screenshots and video (useful for demos):
+
+```bash
+infsh app run agentic-browser --function open --session new --input '{
+  "url": "https://example.com",
+  "show_cursor": true,
+  "record_video": true
+}'
+```
+
+The cursor appears as a red dot that follows mouse movements and shows click feedback.
 
 ### Proxy Support
 
